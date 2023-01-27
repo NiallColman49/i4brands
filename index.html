@@ -9,14 +9,37 @@
 </head>
 
 <body class="font-favorit">
-    <section class="navigation"></section>
+    <section class="navigation mx-auto px-4 lg:px-20 flex justify-between items-center py-10">
+        <div>
+            <img src="./public/images/logo.svg" alt="i4brands logo" class="w-20">
+        </div>
+
+        <div class="hidden sm:flex">
+            <ul class="flex gap-10 text-xl font-light">
+                <li>About</li>
+                <li>Services</li>
+                <li>Work</li>
+                <li>projects</li>
+                <li>contact</li>
+            </ul>
+        </div>
+
+        <div class="flex sm:hidden">
+            <i class="fa-solid fa-bars text-4xl"></i>
+        </div>
+
+        <div class="hidden md:flex flex-wrap justify-center">
+            <span class="text-xs font-light">Mode</span>
+            <img src="./public/images/toggle-slider.svg" alt="toggle slider">
+        </div>
+    </section>
 
     <section class="hero-para mx-auto px-4 flex justify-center mt-10 lg:mt-20">
         <div class="w-full lg:w-5/6">
             <div>
                 <h2 class="font-light text-3xl lg:text-5xl lg:leading-tight"><span class="font-normal">i4Brands</span> offers a <span class="underline">unique service to brands.</span> We offer an all round service for <span class="underline">any projects</span> from managing, planning and consultancy to carrying out surveys, audits and asset registers while providing a <span class="font-bold">supply, installation, maintenance</span> and <span class="font-bold">branding service.</span></h2>
             </div>
-            <span class="flex justify-center mt-10 lg:justify-end lg:mt-5">
+            <span class="flex justify-center mt-10 lg:justify-end lg:mt-16">
                 <img src="./public/images/scroll-down.svg" alt="scroll down" class="w-5 animate-bounce lg:w-10">
             </span>
         </div>
@@ -45,7 +68,7 @@
     <section class="can-do mx-auto px-4 mt-10 lg:mt-28">
         <div class="w-full flex flex-wrap">
             <div class="w-full lg:pr-5 lg:w-1/2">
-                <h3 class="text-2xl underline w-full mt-10 lg:mt-0 lg:w-4/5">i4Brands work in the hospitality, retail, leisure, education and entertainment sectors.</h3>
+                <h3 data-mh="heading" class="text-2xl underline w-full mt-10 lg:mt-0 lg:w-4/5">i4Brands work in the hospitality, retail, leisure, education and entertainment sectors.</h3>
 
                 <p class="mt-10 font-light lg:w-4/5">i4Brands is part of Dining Table Ventures and work alongside elec360 and Install360 which allows us to offer an array of services to carry out any projects you may have. We have access to an extensive list of specialist preferred service partners which means we can guarantee a professional service 24 hours a day 7 days a week should we be required.                    
                 </p>
@@ -61,7 +84,7 @@
             </div>
 
             <div class="w-full mt-20 lg:mt-0 lg:pl-5 lg:w-1/2">
-                <h4 class="text-2xl underline w-full lg:w-4/5">i4Brands work with clients to provide a service that matches their requirements.</h4>
+                <h3 data-mh="heading" class="text-2xl underline w-full lg:w-4/5">i4Brands work with clients to provide a service that matches their requirements.</h4>
             
                 <p class="mt-10 font-light lg:w-4/5">We work from maintenance portals such as Access Maintain and Concerto to give the fastest and most accurate service possible while recording all the necessary information in real time and controlling incoming work daily. i4Brands build asset registers for each site which in turn gives us the knowledge of assets, equipment fand materials for future visits, keeping costs to a minimum.                   
                 </p>
@@ -153,6 +176,9 @@
             </p>
         </div>
     </section>
+
+    <script src="https://kit.fontawesome.com/b838f5a310.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
