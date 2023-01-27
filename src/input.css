@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: "Favorit";
+        font-weight:400;
+        src: url('../public/fonts/ABCFavorit-Regular-Trial.woff2') format("woff2"), url('../public/fonts/ABCFavorit-Regular-Trial.woff') format("woff");
+    }
+
+    @font-face {
+        font-family: "Favorit";
+        font-weight:200;
+        src: url('../public/fonts/ABCFavorit-Light-Trial.woff2') format("woff2"), url('../public/fonts/ABCFavorit-Light-Trial.woff') format("woff");
+    }
+}
