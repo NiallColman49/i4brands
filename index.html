@@ -1,192 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>i4brands</title>
-    <link href="./dist/output.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>i4brands</title>
+        <link href="./dist/output.css" rel="stylesheet" />
+    </head>
 
-<body class="font-favorit">
-    <section class="navigation mx-auto px-4 lg:px-20 flex justify-between items-center py-10">
-        <div>
-            <img src="./public/images/i4brands-logo-black.svg" alt="i4brands logo" class="w-24 h-10">
-        </div>
-
-        <div class="hidden sm:flex">
-            <ul class="flex gap-10 text-xl font-light">
-                <li>About</li>
-                <li><a href="./services.html">Services</a></li>
-                <li>Work</li>
-                <li>projects</li>
-                <li>contact</li>
-            </ul>
-        </div>
-
-        <div class="flex sm:hidden">
-            <i class="fa-solid fa-bars text-4xl"></i>
-        </div>
-
-        <div class="hidden md:flex flex-wrap justify-center">
-            <span class="text-xs font-light">Mode</span>
-            <img src="./public/images/toggle-slider.svg" alt="toggle slider">
-        </div>
-    </section>
-
-    <section class="hero-para mx-auto px-4 flex justify-center mt-10 lg:mt-20">
-        <div class="w-full lg:w-5/6">
+    <body class="font-favorit">
+        <section
+            class="navigation mx-auto px-4 lg:px-20 flex justify-between items-center py-10"
+        >
             <div>
-                <h2 class="font-light text-3xl lg:text-5xl lg:leading-tight"><span class="font-normal">i4Brands</span> offers a <span class="underline">unique service to brands.</span> We offer an all round service for <span class="underline">any projects</span> from managing, planning and consultancy to carrying out surveys, audits and asset registers while providing a <span class="font-bold">supply, installation, maintenance</span> and <span class="font-bold">branding service.</span></h2>
+                <img
+                    src="./public/images/i4brands-logo-black.svg"
+                    alt="i4brands logo"
+                    class="w-24 h-10"
+                />
             </div>
-            <span class="flex justify-center mt-10 lg:justify-end lg:mt-16">
-                <img src="./public/images/scroll-down.svg" alt="scroll down" class="w-5 animate-bounce lg:w-8">
-            </span>
-        </div>
-    </section>
 
-    <section class="about mx-auto px-4 mt-10">
-        <div class="w-full flex flex-wrap">
-            <div class="w-full lg:pr-5 lg:w-1/2">
-                <img src="./public/images/about-us.webp" alt="about image">
+            <div class="hidden sm:flex">
+                <ul class="flex gap-10 text-xl font-light">
+                    <li>About</li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li>Work</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
             </div>
-            <div class="w-full lg:pl-5 lg:pr-20 lg:w-1/2">
-                <h3 class="text-2xl underline w-full mt-10 lg:mt-0 lg:w-4/5">An awarded company for facility management. Specialists in signage, electrical and fabric maintenance services.</h3>
 
-                <p class="mt-10 font-light">i4Brands are a highly effective and proactive FM company. We have drawn on years of knowledge and experience in relevant industries to find solutions regardless of what the situation is. We guarantee if we cannot provide the solution to your problems, we have a service partner who can. <br><br>i4Brands like to be in charge of any given situation and in full control from planning and scheduling to technical planning and project management right through to job completion. Communication is the key, our planning, on site management and live reporting either simple paper reports or more up to date live reporting maintenance portals keeps clients in the loop.
-                </p>
-                
-                <div class="mt-10">
-                    <a class="font-bold border-2 border-black rounded-tr-xl rounded-bl-xl py-3 px-10" href="/">
-                    Read more
-                    </a>
+            <div class="flex sm:hidden">
+                <i class="fa-solid fa-bars text-4xl"></i>
+            </div>
+
+            <div class="hidden md:flex flex-wrap justify-center">
+                <span class="text-xs font-light">Mode</span>
+                <img
+                    src="./public/images/toggle-slider.svg"
+                    alt="toggle slider"
+                />
+            </div>
+        </section>
+
+        <section
+            class="hero-para mx-auto px-4 flex justify-center mt-10 lg:mt-20"
+        >
+            <div class="w-full lg:w-5/6">
+                <div>
+                    <h2
+                        class="font-light text-3xl lg:text-5xl lg:leading-tight"
+                    >
+                        <span class="font-normal">i4Brands</span> offers a
+                        <span class="underline">unique service to brands.</span>
+                        We offer an all round service for
+                        <span class="underline">any projects</span> from
+                        managing, planning and consultancy to carrying out
+                        surveys, audits and asset registers while providing a
+                        <span class="font-bold"
+                            >supply, installation, maintenance</span
+                        >
+                        and <span class="font-bold">branding service.</span>
+                    </h2>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="services mx-auto px-4 flex flex-col justify-center mt-60 pb-10 relative">
-        <div class="w-3/4 absolute -top-32 left-4">
-            <img src="./public/images/i4brands-logo.svg" alt="logo">
-        </div>
-
-        <div class="w-full">
-            <img src="./public/images/services.jpg" alt="services">
-        </div>
-
-        <div class="hidden md:flex relative overflow-x-hidden -mt-32">
-            <div class="animate-marquee whitespace-nowrap">
-                <span class="mx-5 text-7xl text-white underline">First impressions</span>
-                <span class="mx-5 text-7xl text-white underline">Brand refresh</span>
-                <span class="mx-5 text-7xl text-white underline">Visual Branding & Merchandising</span>
-            </div>
-
-            <div class="absolute animate-marquee2 whitespace-nowrap ml-5">
-                <span class="mx-5 text-7xl text-white underline">First impressions</span>
-                <span class="mx-5 text-7xl text-white underline">Brand refresh</span>
-                <span class="mx-5 text-7xl text-white underline">Visual Branding & Merchandising</span>
-            </div>
-        </div>
-
-        <div class="flex md:hidden relative overflow-x-hidden mt-10">
-            <div class="animate-marquee whitespace-nowrap">
-                <span class="mx-5 text-3xl underline">First impressions</span>
-                <span class="mx-5 text-3xl underline">Brand refresh</span>
-                <span class="mx-5 text-3xl underline">Visual Branding & Merchandising</span>
-            </div>
-
-            <div class="absolute animate-marquee2 whitespace-nowrap ml-5">
-                <span class="mx-5 text-3xl underline">First impressions</span>
-                <span class="mx-5 text-3xl underline">Brand refresh</span>
-                <span class="mx-5 text-3xl underline">Visual Branding & Merchandising</span>
-            </div>
-        </div>
-    </section>
-
-    <section class="can-do mx-auto px-4 mt-10 lg:mt-28">
-        <div class="w-full flex flex-wrap">
-            <div class="w-full lg:pr-5 lg:w-1/2">
-                <h3 data-mh="heading" class="text-2xl underline w-full mt-10 lg:mt-0 lg:w-4/5">i4Brands work in the hospitality, retail, leisure, education and entertainment sectors.</h3>
-
-                <p class="mt-10 font-light lg:w-4/5">i4Brands is part of Dining Table Ventures and work alongside elec360 and Install360 which allows us to offer an array of services to carry out any projects you may have. We have access to an extensive list of specialist preferred service partners which means we can guarantee a professional service 24 hours a day 7 days a week should we be required.                    
-                </p>
-
-                <div class="mt-10 flex gap-5">
-                    <a class="font-bold bg-black text-white border-2 border-black rounded-full py-3 px-10" href="/">
-                    Read more
-                    </a>
-                    <a class="hidden sm:block font-bold border-2 border-black rounded-full py-3 px-10" href="/">
-                        Get in touch
-                    </a>
-                </div>
-            </div>
-
-            <div class="w-full mt-20 lg:mt-0 lg:pl-5 lg:w-1/2">
-                <h3 data-mh="heading" class="text-2xl underline w-full lg:w-4/5">i4Brands work with clients to provide a service that matches their requirements.</h4>
-            
-                <p class="mt-10 font-light lg:w-4/5">We work from maintenance portals such as Access Maintain and Concerto to give the fastest and most accurate service possible while recording all the necessary information in real time and controlling incoming work daily. i4Brands build asset registers for each site which in turn gives us the knowledge of assets, equipment fand materials for future visits, keeping costs to a minimum.                   
-                </p>
-
-                <div class="mt-10 flex gap-5">
-                    <a class="font-bold bg-black text-white border-2 border-black rounded-full py-3 px-10" href="/">
-                    Read more
-                    </a>
-                    <a class="hidden sm:block font-bold border-2 border-black rounded-full py-3 px-10" href="/">
-                        Get in touch
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="flex justify-end lg:mr-40 mt-5 lg:mt-20">
-            <img src="./public/images/down-arrow.svg" alt="down arrow" class="w-20 lg:w-40">
-        </div>
-    </section>
-
-    <section class="footer mx-auto px-4 flex justify-center mt-10 md:mt-28">
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <div>
-                <img src="./public/images/i4brands-logo-black.svg" alt="i4brands logo" class="w-24 h-10">
-            </div>
-
-            <div class="mt-10 md:mt-0">
-                <h3 class="text-xl">Office</h3>
-                <p class="font-light mt-5">ABC Building<br>
-                    21-23 Newquay St<br>
-                    Wakefield<br>
-                    B13 4AE<br>
-                </p>
-            </div>
-
-            <div class="mt-10 md:mt-0">
-                <h3 class="text-xl">Get in touch</h3>
-                <p class="font-light mt-5">+44 (0) 113 327 0353<br>
-                    hello@i4brands.co.uk<br>
-                    Request a free audit</p>
-            </div>
-
-            <div class="mt-10 lg:mt-0">
-                <h3 class="text-xl">Follow us</h3>
-
-                <div class="flex gap-5 mt-5 font-light">
-                    <a href="https://uk.linkedin.com/">LinkedIn</a>
-                    <a href="https://twitter.com/?lang=en">Twitter</a>
-                    <a href="https://www.instagram.com/">Instagram</a>
-                    <a href="https://medium.com/">Medium</a>          
+                <span class="flex justify-center mt-10 lg:justify-end lg:mt-16">
+                    <img
+                        src="./public/images/scroll-down.svg"
+                        alt="scroll down"
+                        class="w-5 animate-bounce lg:w-8"
+                    />
                 </span>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="copyright mx-auto px-4 mt-20 pb-10">
-        <div class="w-full flex md:justify-end">
-            <p class="text-sm font-light">©2022 i4BrandsLtd. is registered in England and Wales. No 10342378 | Designed and built by Colman®
-            </p>
-        </div>
-    </section>
+        <section class="about mx-auto px-4 mt-10">
+            <div class="w-full flex flex-wrap">
+                <div class="w-full lg:pr-5 lg:w-1/2">
+                    <img
+                        src="./public/images/about-us.webp"
+                        alt="about image"
+                    />
+                </div>
+                <div class="w-full lg:pl-5 lg:pr-20 lg:w-1/2">
+                    <h3
+                        class="text-2xl underline w-full mt-10 lg:mt-0 lg:w-4/5"
+                    >
+                        An awarded company for facility management. Specialists
+                        in signage, electrical and fabric maintenance services.
+                    </h3>
 
-    <script src="https://kit.fontawesome.com/b838f5a310.js" crossorigin="anonymous"></script>
+                    <p class="mt-10 font-light">
+                        i4Brands are a highly effective and proactive FM
+                        company. We have drawn on years of knowledge and
+                        experience in relevant industries to find solutions
+                        regardless of what the situation is. We guarantee if we
+                        cannot provide the solution to your problems, we have a
+                        service partner who can. <br /><br />i4Brands like to be
+                        in charge of any given situation and in full control
+                        from planning and scheduling to technical planning and
+                        project management right through to job completion.
+                        Communication is the key, our planning, on site
+                        management and live reporting either simple paper
+                        reports or more up to date live reporting maintenance
+                        portals keeps clients in the loop.
+                    </p>
 
-</body>
+                    <div class="mt-10">
+                        <a
+                            class="font-bold border-2 border-black rounded-tr-xl rounded-bl-xl py-3 px-10"
+                            href="/"
+                        >
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section
+            class="services mx-auto px-4 flex flex-col justify-center mt-60 pb-10 relative"
+        >
+            <div class="w-3/4 absolute -top-32 left-4">
+                <img src="./public/images/i4brands-logo.svg" alt="logo" />
+            </div>
+
+            <div class="w-full">
+                <img src="./public/images/services.jpg" alt="services" />
+            </div>
+
+            <div class="hidden md:flex relative overflow-x-hidden -mt-32">
+                <div class="animate-marquee whitespace-nowrap">
+                    <span class="mx-5 text-7xl text-white underline"
+                        >First impressions</span
+                    >
+                    <span class="mx-5 text-7xl text-white underline"
+                        >Brand refresh</span
+                    >
+                    <span class="mx-5 text-7xl text-white underline"
+                        >Visual Branding & Merchandising</span
+                    >
+                </div>
+
+                <div class="absolute animate-marquee2 whitespace-nowrap ml-5">
+                    <span class="mx-5 text-7xl text-white underline"
+                        >First impressions</span
+                    >
+                    <span class="mx-5 text-7xl text-white underline"
+                        >Brand refresh</span
+                    >
+                    <span class="mx-5 text-7xl text-white underline"
+                        >Visual Branding & Merchandising</span
+                    >
+                </div>
+            </div>
+
+            <div class="flex md:hidden relative overflow-x-hidden mt-10">
+                <div class="animate-marquee whitespace-nowrap">
+                    <span class="mx-5 text-3xl underline"
+                        >First impressions</span
+                    >
+                    <span class="mx-5 text-3xl underline">Brand refresh</span>
+                    <span class="mx-5 text-3xl underline"
+                        >Visual Branding & Merchandising</span
+                    >
+                </div>
+
+                <div class="absolute animate-marquee2 whitespace-nowrap ml-5">
+                    <span class="mx-5 text-3xl underline"
+                        >First impressions</span
+                    >
+                    <span class="mx-5 text-3xl underline">Brand refresh</span>
+                    <span class="mx-5 text-3xl underline"
+                        >Visual Branding & Merchandising</span
+                    >
+                </div>
+            </div>
+        </section>
+
+        <section class="can-do mx-auto px-4 mt-10 lg:mt-28">
+            <div class="w-full flex flex-wrap">
+                <div class="w-full lg:pr-5 lg:w-1/2">
+                    <h3
+                        data-mh="heading"
+                        class="text-2xl underline w-full mt-10 lg:mt-0 lg:w-4/5"
+                    >
+                        i4Brands work in the hospitality, retail, leisure,
+                        education and entertainment sectors.
+                    </h3>
+
+                    <p class="mt-10 font-light lg:w-4/5">
+                        i4Brands is part of Dining Table Ventures and work
+                        alongside elec360 and Install360 which allows us to
+                        offer an array of services to carry out any projects you
+                        may have. We have access to an extensive list of
+                        specialist preferred service partners which means we can
+                        guarantee a professional service 24 hours a day 7 days a
+                        week should we be required.
+                    </p>
+
+                    <div class="mt-10 flex gap-5">
+                        <a
+                            class="font-bold bg-black text-white border-2 border-black rounded-full py-3 px-10"
+                            href="/"
+                        >
+                            Read more
+                        </a>
+                        <a
+                            class="hidden sm:block font-bold border-2 border-black rounded-full py-3 px-10"
+                            href="/"
+                        >
+                            Get in touch
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full mt-20 lg:mt-0 lg:pl-5 lg:w-1/2">
+                    <h3
+                        data-mh="heading"
+                        class="text-2xl underline w-full lg:w-4/5"
+                    >
+                        i4Brands work with clients to provide a service that
+                        matches their requirements.
+                    </h3>
+
+                    <p class="mt-10 font-light lg:w-4/5">
+                        We work from maintenance portals such as Access Maintain
+                        and Concerto to give the fastest and most accurate
+                        service possible while recording all the necessary
+                        information in real time and controlling incoming work
+                        daily. i4Brands build asset registers for each site
+                        which in turn gives us the knowledge of assets,
+                        equipment fand materials for future visits, keeping
+                        costs to a minimum.
+                    </p>
+
+                    <div class="mt-10 flex gap-5">
+                        <a
+                            class="font-bold bg-black text-white border-2 border-black rounded-full py-3 px-10"
+                            href="/"
+                        >
+                            Read more
+                        </a>
+                        <a
+                            class="hidden sm:block font-bold border-2 border-black rounded-full py-3 px-10"
+                            href="/"
+                        >
+                            Get in touch
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-end lg:mr-40 mt-5 lg:mt-20">
+                <img
+                    src="./public/images/down-arrow.svg"
+                    alt="down arrow"
+                    class="w-20 lg:w-40"
+                />
+            </div>
+        </section>
+
+        <section class="footer mx-auto px-4 flex justify-center mt-10 md:mt-28">
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    <img
+                        src="./public/images/i4brands-logo-black.svg"
+                        alt="i4brands logo"
+                        class="w-24 h-10"
+                    />
+                </div>
+
+                <div class="mt-10 md:mt-0">
+                    <h3 class="text-xl">Office</h3>
+                    <p class="font-light mt-5">
+                        ABC Building<br />
+                        21-23 Newquay St<br />
+                        Wakefield<br />
+                        B13 4AE<br />
+                    </p>
+                </div>
+
+                <div class="mt-10 md:mt-0">
+                    <h3 class="text-xl">Get in touch</h3>
+                    <p class="font-light mt-5">
+                        +44 (0) 113 327 0353<br />
+                        hello@i4brands.co.uk<br />
+                        Request a free audit
+                    </p>
+                </div>
+
+                <div class="mt-10 lg:mt-0">
+                    <h3 class="text-xl">Follow us</h3>
+
+                    <div class="flex gap-5 mt-5 font-light">
+                        <a href="https://uk.linkedin.com/">LinkedIn</a>
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://medium.com/">Medium</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="copyright mx-auto px-4 mt-20 pb-10">
+            <div class="w-full flex md:justify-end">
+                <p class="text-sm font-light">
+                    ©2022 i4BrandsLtd. is registered in England and Wales. No
+                    10342378 | Designed and built by Colman®
+                </p>
+            </div>
+        </section>
+
+        <script
+            src="https://kit.fontawesome.com/b838f5a310.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
