@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>i4brands</title>
         <link href="./dist/output.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./styles.css" />
     </head>
 
     <body class="font-favorit">
@@ -22,16 +23,16 @@
 
             <div class="hidden sm:flex">
                 <ul class="flex gap-10 text-xl font-light">
-                    <li>About</li>
-                    <li><a href="./services.html">Services</a></li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
                     <li>Work</li>
                     <li>projects</li>
                     <li>contact</li>
                 </ul>
-            </div>
-
-            <div class="flex sm:hidden">
-                <i class="fa-solid fa-bars text-4xl"></i>
             </div>
 
             <div class="hidden md:flex flex-wrap justify-center">
@@ -40,6 +41,27 @@
                     src="./public/images/toggle-slider.svg"
                     alt="toggle slider"
                 />
+            </div>
+
+            <div class="hamburger flex sm:hidden">
+                <i class="fa-solid fa-bars text-4xl"></i>
+            </div>
+
+            <div class="off-canvas-menu hidden">
+                <i class="cross fa-solid fa-bars text-4xl"></i>
+                <ul
+                    class="absolute top-0 left-0 bg-white h-screen w-screen flex flex-col gap-10 text-2xl font-light pt-20 pl-10 z-20"
+                >
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>Work</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
             </div>
         </section>
 
@@ -315,5 +337,6 @@
             src="https://kit.fontawesome.com/b838f5a310.js"
             crossorigin="anonymous"
         ></script>
+        <script src="./js/offCanvas.js"></script>
     </body>
 </html>
