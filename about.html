@@ -33,16 +33,64 @@
                 </ul>
             </div>
 
-            <div class="flex sm:hidden">
-                <i class="fa-solid fa-bars text-4xl"></i>
-            </div>
-
             <div class="hidden md:flex flex-wrap justify-center">
                 <span class="text-xs font-light">Mode</span>
                 <img
                     src="./public/images/toggle-slider.svg"
                     alt="toggle slider"
                 />
+            </div>
+
+            <div class="hamburger flex sm:hidden">
+                <i class="fa-solid fa-bars text-4xl"></i>
+            </div>
+
+            <div
+                class="off-canvas-menu hidden absolute top-0 left-0 bg-white h-screen w-screen overflow-hidden pt-16 pl-10 z-20"
+            >
+                <i
+                    class="cross fa-solid fa-close text-4xl absolute top-10 right-4 close"
+                ></i>
+                <ul class="flex flex-col gap-5 text-2xl font-light">
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>Work</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
+
+                <div class="w-full grid grid-cols-1 mt-10">
+                    <div>
+                        <img
+                            src="./public/images/i4brands-logo-black.svg"
+                            alt="i4brands logo"
+                            class="w-24 h-10"
+                        />
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="text-xl">Office</h3>
+                        <p class="font-light mt-5">
+                            ABC Building<br />
+                            21-23 Newquay St<br />
+                            Wakefield<br />
+                            B13 4AE<br />
+                        </p>
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="text-xl">Get in touch</h3>
+                        <p class="font-light mt-5">
+                            +44 (0) 113 327 0353<br />
+                            hello@i4brands.co.uk<br />
+                            Request a free audit
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
