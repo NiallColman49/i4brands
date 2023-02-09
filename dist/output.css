@@ -549,24 +549,16 @@ video {
   left: 1rem;
 }
 
+.right-4 {
+  right: 1rem;
+}
+
 .top-0 {
   top: 0px;
 }
 
-.right-10 {
-  right: 2.5rem;
-}
-
 .top-10 {
   top: 2.5rem;
-}
-
-.right-8 {
-  right: 2rem;
-}
-
-.right-4 {
-  right: 1rem;
 }
 
 .z-20 {
@@ -855,16 +847,16 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .text-center {
