@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>i4brands</title>
+        <link href="./dist/output.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+
+    <body class="font-favorit">
+        <section
+            class="navigation mx-auto px-4 lg:px-20 flex justify-between items-center py-10"
+        >
+            <div>
+                <img
+                    src="./public/images/i4brands-logo-black.svg"
+                    alt="i4brands logo"
+                    class="w-24 h-10"
+                />
+            </div>
+
+            <div class="hidden sm:flex">
+                <ul class="flex gap-10 text-xl font-light">
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>Work</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+
+            <div class="hidden md:flex flex-wrap justify-center">
+                <span class="text-xs font-light">Mode</span>
+                <img
+                    src="./public/images/toggle-slider.svg"
+                    alt="toggle slider"
+                />
+            </div>
+
+            <div class="hamburger flex sm:hidden">
+                <i class="fa-solid fa-bars text-4xl"></i>
+            </div>
+
+            <div
+                class="off-canvas-menu hidden absolute top-0 left-0 bg-white h-screen w-screen overflow-hidden pt-16 pl-10 z-20"
+            >
+                <i
+                    class="cross fa-solid fa-close text-4xl absolute top-10 right-4 close"
+                ></i>
+                <ul class="flex flex-col gap-5 text-2xl font-light">
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>Work</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
+
+                <div class="w-full grid grid-cols-1 mt-10">
+                    <div>
+                        <img
+                            src="./public/images/i4brands-logo-black.svg"
+                            alt="i4brands logo"
+                            class="w-24 h-10"
+                        />
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="text-xl">Office</h3>
+                        <p class="font-light mt-5">
+                            ABC Building<br />
+                            21-23 Newquay St<br />
+                            Wakefield<br />
+                            B13 4AE<br />
+                        </p>
+                    </div>
+
+                    <div class="mt-5">
+                        <h3 class="text-xl">Get in touch</h3>
+                        <p class="font-light mt-5">
+                            +44 (0) 113 327 0353<br />
+                            hello@i4brands.co.uk<br />
+                            Request a free audit
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-contact flex flex-wrap w-full md:w-3/4">
+            <h2 class="font-light pt-10 text-3xl md:text-5xl mx-auto px-4">
+                New work? Media inquiry? Want a job at
+                <span class="underline">i4Brands?</span> Please find the
+                appropriate contact information below as well as where to find
+                us, below.
+            </h2>
+        </section>
+
+        <section class="google-map px-4 pt-10 md:pt-20">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.5945983611564!2d-1.3156101841485837!3d53.68985038005245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48796a35b194e763%3A0x2fbf071d3032570a!2sRopergate%20House%2C%20Ropergate%2C%20Pontefract%20WF8%201JY!5e0!3m2!1sen!2suk!4v1675949887642!5m2!1sen!2suk"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </section>
+
+        <section class="footer mx-auto px-4 flex justify-center mt-10 md:mt-28">
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div>
+                    <img
+                        src="./public/images/i4brands-logo-black.svg"
+                        alt="i4brands logo"
+                        class="w-24 h-10"
+                    />
+                </div>
+
+                <div class="mt-10 md:mt-0">
+                    <h3 class="text-xl">Office</h3>
+                    <p class="font-light mt-5">
+                        ABC Building<br />
+                        21-23 Newquay St<br />
+                        Wakefield<br />
+                        B13 4AE<br />
+                    </p>
+                </div>
+
+                <div class="mt-10 md:mt-0">
+                    <h3 class="text-xl">Get in touch</h3>
+                    <p class="font-light mt-5">
+                        +44 (0) 113 327 0353<br />
+                        hello@i4brands.co.uk<br />
+                        Request a free audit
+                    </p>
+                </div>
+
+                <div class="mt-10 lg:mt-0">
+                    <h3 class="text-xl">Follow us</h3>
+
+                    <div class="flex gap-5 mt-5 font-light">
+                        <a href="https://uk.linkedin.com/">LinkedIn</a>
+                        <a href="https://twitter.com/?lang=en">Twitter</a>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://medium.com/">Medium</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="copyright mx-auto px-4 mt-20 pb-10">
+            <div class="w-full flex md:justify-end">
+                <p class="text-sm font-light">
+                    ©2022 i4BrandsLtd. is registered in England and Wales. No
+                    10342378 | Designed and built by Colman®
+                </p>
+            </div>
+        </section>
+
+        <script
+            src="https://kit.fontawesome.com/b838f5a310.js"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./js/offCanvas.js"></script>
+    </body>
+</html>
