@@ -28,21 +28,38 @@
             <div class="hidden sm:flex">
                 <ul class="flex gap-10 text-xl font-light">
                     <li>
-                        <a href="./about.html">About</a>
+                        <a class="hover-underline-animation" href="./about.html"
+                            >About</a
+                        >
                     </li>
                     <li>
-                        <a href="./services.html">Services</a>
+                        <a
+                            class="hover-underline-animation"
+                            href="./services.html"
+                            >Services</a
+                        >
                     </li>
                     <li>
-                        <a href="./projects.html">Projects</a>
+                        <a
+                            class="hover-underline-animation"
+                            href="./projects.html"
+                            >Projects</a
+                        >
                     </li>
                     <li>
-                        <a href="./contact.html">Contact</a>
+                        <a
+                            class="hover-underline-animation"
+                            href="./contact.html"
+                            >Contact</a
+                        >
                     </li>
                 </ul>
             </div>
 
-            <div class="hidden md:flex flex-wrap justify-center">
+            <div
+                class="hidden md:flex flex-wrap justify-center"
+                onclick="darkToggle()"
+            >
                 <span class="text-xs font-light">Mode</span>
                 <img
                     src="./public/images/toggle-slider.svg"
@@ -396,5 +413,6 @@
         <script>
             AOS.init();
         </script>
+        <script src="./js/darkToggle.js"></script>
     </body>
 </html>
