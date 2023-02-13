@@ -7,6 +7,7 @@
         <title>Services</title>
         <link href="./dist/output.css" rel="stylesheet" />
         <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="font-favorit">
         <section
@@ -107,6 +108,8 @@
             <div class="w-full flex items-center flex-wrap">
                 <div class="w-full bg-cover lg:pr-5 md:w-1/2">
                     <img
+                        data-aos="fade-right"
+                        data-aos-delay="300"
                         src="./public/images/services-1.png"
                         alt="services image"
                         class="w-full"
@@ -233,7 +236,11 @@
             </div>
         </section>
 
-        <section class="services-contact px-4 mt-14 pb-10 md:mt-28 w-full">
+        <section
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="services-contact px-4 mt-14 pb-10 md:mt-28 w-full"
+        >
             <div class="w-full md:w-3/5 flex flex-wrap justify-center mx-auto">
                 <h2
                     class="font-light underline text-center md:pt-10 lg:pt-0 text-3xl sm:text-6xl"
@@ -305,5 +312,9 @@
             crossorigin="anonymous"
         ></script>
         <script src="./js/offCanvas.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

@@ -7,6 +7,8 @@
         <title>i4brands</title>
         <link href="./dist/output.css" rel="stylesheet" />
         <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     </head>
 
     <body class="font-favorit">
@@ -134,7 +136,11 @@
             </div>
         </section>
 
-        <section class="about mx-auto px-4 mt-10">
+        <section
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="about mx-auto px-4 mt-10"
+        >
             <div class="w-full flex flex-wrap">
                 <div class="w-full lg:pr-5 lg:w-1/2">
                     <img
@@ -181,7 +187,13 @@
         <section
             class="services mx-auto px-4 flex flex-col justify-center mt-60 pb-10 relative"
         >
-            <div class="w-3/4 absolute -top-32 left-4">
+            <div
+                data-aos="fade-right"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+                class="w-3/4 absolute -top-32 left-4"
+            >
                 <img src="./public/images/i4brands-logo.svg" alt="logo" />
             </div>
 
@@ -311,7 +323,11 @@
                 </div>
             </div>
 
-            <div class="flex justify-end lg:mr-40 mt-5 lg:mt-20">
+            <div
+                data-aos="fade-left"
+                data-aos-delay="300"
+                class="flex justify-end lg:mr-40 mt-5 lg:mt-20"
+            >
                 <img
                     src="./public/images/down-arrow.svg"
                     alt="down arrow"
@@ -376,5 +392,9 @@
             crossorigin="anonymous"
         ></script>
         <script src="./js/offCanvas.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
