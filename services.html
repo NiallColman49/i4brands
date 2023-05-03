@@ -7,10 +7,11 @@
         <title>Services</title>
         <link href="./dist/output.css" rel="stylesheet" />
         <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="font-favorit">
         <section
-            class="navigation mx-auto px-4 lg:px-20 flex justify-between items-center py-10"
+            class="navigation mx-auto px-4 lg:px-20 flex justify-between items-center py-10 container"
         >
             <div>
                 <a href="/">
@@ -25,27 +26,42 @@
             <div class="hidden sm:flex">
                 <ul class="flex gap-10 text-xl font-light">
                     <li>
-                        <a href="./about.html">About</a>
+                        <a class="hover-underline-animation" href="./about.html"
+                            >About</a
+                        >
                     </li>
                     <li>
-                        <a href="./services.html">Services</a>
+                        <a
+                            class="hover-underline-animation"
+                            href="./services.html"
+                            >Services</a
+                        >
                     </li>
                     <li>
-                        <a href="./projects.html">Projects</a>
+                        <a
+                            class="hover-underline-animation"
+                            href="./projects.html"
+                            >Projects</a
+                        >
                     </li>
                     <li>
-                        <a href="./about.html">Contact</a>
+                        <a class="hover-underline-animation" href="./about.html"
+                            >Contact</a
+                        >
                     </li>
                 </ul>
             </div>
-
-            <div class="hidden md:flex flex-wrap justify-center">
+            <!-- test comment -->
+            <!-- <div
+                class="hidden md:flex flex-wrap justify-center"
+                onclick="darkToggle()"
+            >
                 <span class="text-xs font-light">Mode</span>
                 <img
                     src="./public/images/toggle-slider.svg"
                     alt="toggle slider"
                 />
-            </div>
+            </div> -->
 
             <div class="hamburger flex sm:hidden">
                 <i class="fa-solid fa-bars text-4xl"></i>
@@ -103,10 +119,12 @@
             </div>
         </section>
 
-        <section class="services-hero mx-auto px-4">
+        <section class="services-hero mx-auto px-4 container">
             <div class="w-full flex items-center flex-wrap">
                 <div class="w-full bg-cover lg:pr-5 md:w-1/2">
                     <img
+                        data-aos="fade-right"
+                        data-aos-delay="300"
                         src="./public/images/services-1.png"
                         alt="services image"
                         class="w-full"
@@ -123,7 +141,7 @@
             </div>
         </section>
 
-        <section class="services-para px-4 mt-10 md:mt-20 w-full md:w-5/6">
+        <section class="services-para px-4 mt-10 md:mt-20 w-full container">
             <div class="w-full flex items-center flex-wrap">
                 <h2 class="font-light md:pt-20 lg:pt-0 text-3xl sm:text-6xl">
                     At <span class="underline">i4brands</span> we thrive on
@@ -134,41 +152,45 @@
             </div>
         </section>
 
-        <section class="services-accordion mx-auto px-4 mt-10 md:mt-20">
+        <section
+            class="services-accordion mx-auto px-4 mt-10 md:mt-20 container"
+        >
             <div class="w-full flex flex-wrap">
                 <div class="w-full flex flex-col justify-between lg:w-1/2">
                     <div class="accordion pr-4 align-self-start w-full">
-                        <div class="border-t-2 border-black">
+                        <div class="border-t-2 border-i4brands-aqua-blue">
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Manage</span>
                             </h3>
                         </div>
-                        <div class="border-t-2 border-black">
+                        <div class="border-t-2 border-i4brands-aqua-blue">
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Consult</span>
                             </h3>
                         </div>
-                        <div class="border-t-2 border-black">
+                        <div class="border-t-2 border-i4brands-aqua-blue">
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Maintain</span>
                             </h3>
                         </div>
-                        <div class="border-t-2 border-black">
+                        <div class="border-t-2 border-i4brands-aqua-blue">
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Survey</span>
                             </h3>
                         </div>
-                        <div class="border-t-2 border-black">
+                        <div class="border-t-2 border-i4brands-aqua-blue">
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Audit</span>
                             </h3>
                         </div>
-                        <div class="border-t-2 border-black">
+                        <div class="border-t-2 border-i4brands-aqua-blue">
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Install</span>
                             </h3>
                         </div>
-                        <div class="border-t-2 border-b-2 border-black">
+                        <div
+                            class="border-t-2 border-b-2 border-i4brands-aqua-blue"
+                        >
                             <h3 class="text-2xl py-2">
                                 i <span class="italic">Supply</span>
                             </h3>
@@ -192,10 +214,12 @@
             </div>
         </section>
 
-        <section class="services-studies mx-auto px-4 mt-10 md:mt-32 w-full">
-            <div class="flex flex-wrap border border-black">
+        <section
+            class="services-studies mx-auto px-4 mt-10 md:mt-32 w-full container"
+        >
+            <div class="flex flex-wrap border border-white">
                 <div
-                    class="w-full md:border-r border-black p-4 pt-5 pb-8 md:p-6 xl:p-5 block group md:w-1/3"
+                    class="w-full md:border-r border-white p-4 pt-5 pb-8 md:p-6 xl:p-5 block group md:w-1/3"
                 >
                     <a href="./malborough-street.html">
                         <div class="w-full h-52 lg:h-72 overflow-hidden">
@@ -211,7 +235,7 @@
                     </a>
                 </div>
                 <div
-                    class="w-full md:border-r border-black p-4 pt-5 pb-8 md:p-6 xl:p-5 block group md:w-1/3"
+                    class="w-full md:border-r border-white p-4 pt-5 pb-8 md:p-6 xl:p-5 block group md:w-1/3"
                 >
                     <div class="w-full h-52 lg:h-72 overflow-hidden">
                         <img src="./public/images/sector-2.jpg" alt="" />
@@ -233,7 +257,11 @@
             </div>
         </section>
 
-        <section class="services-contact px-4 mt-14 pb-10 md:mt-28 w-full">
+        <section
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="services-contact px-4 mt-14 pb-10 md:mt-28 w-full container"
+        >
             <div class="w-full md:w-3/5 flex flex-wrap justify-center mx-auto">
                 <h2
                     class="font-light underline text-center md:pt-10 lg:pt-0 text-3xl sm:text-6xl"
@@ -241,7 +269,7 @@
                     See how we can help you with your next project
                 </h2>
                 <a
-                    class="mt-14 block font-bold border-2 border-black rounded-full py-3 px-10 hover:bg-black hover:text-white"
+                    class="mt-14 block font-bold border-2 border-i4brands-aqua-blue rounded-full py-3 px-10 hover:bg-i4brands-aqua-blue hover:text-i4brands-dark-blue"
                     href="/"
                 >
                     Get in touch
@@ -249,7 +277,9 @@
             </div>
         </section>
 
-        <section class="footer mx-auto px-4 flex justify-center mt-10 md:mt-28">
+        <section
+            class="footer mx-auto px-4 flex justify-center mt-10 md:mt-28 container"
+        >
             <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 <div>
                     <img
@@ -291,7 +321,7 @@
             </div>
         </section>
 
-        <section class="copyright mx-auto px-4 mt-20 pb-10">
+        <section class="copyright mx-auto px-4 mt-20 pb-10 container">
             <div class="w-full flex md:justify-end">
                 <p class="text-sm font-light">
                     ©2022 i4BrandsLtd. is registered in England and Wales. No
@@ -305,5 +335,10 @@
             crossorigin="anonymous"
         ></script>
         <script src="./js/offCanvas.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./js/darkToggle.js"></script>
     </body>
 </html>

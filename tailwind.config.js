@@ -7,6 +7,8 @@ module.exports = {
                 "i4brands-slate": "#868882",
                 "i4brands-grey": "#d5d5cd",
                 "i4brands-off-white": "#f8f8f2",
+                "i4brands-dark-blue": "#000031",
+                "i4brands-aqua-blue": "#77EAEA",
             },
             fontFamily: {
                 favorit: "Favorit, sans-serif",
